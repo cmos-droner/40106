@@ -1,0 +1,1212 @@
+EESchema Schematic File Version 2
+LIBS:40106grundschaltung
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
+LIBS:40106grundschaltung-cache
+EELAYER 25 0
+EELAYER END
+$Descr A0 46811 33110
+encoding utf-8
+Sheet 1 1
+Title "grundschaltung.sch"
+Date "21 MAY 2016"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CAPACITOR-WIMA_C2.5_2 C1
+U 1 1 5740996E
+P 7600 13600
+F 0 "C1" H 7660 13614 70  0000 L BNN
+F 1 "0.1uF" H 7659 13415 70  0000 L BNN
+F 2 "synth-diy:C_Rect_L4.5_W2.5_P3" H 7590 13390 65  0001 L TNN
+F 3 "" H 7600 13600 60  0001 C CNN
+	1    7600 13600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR-WIMA_C2.5_2 C2
+U 1 1 57409A36
+P 7600 6900
+F 0 "C2" H 7660 6914 70  0000 L BNN
+F 1 "0.1uF" H 7659 6715 70  0000 L BNN
+F 2 "synth-diy:C_Rect_L4.5_W2.5_P3" H 7590 6690 65  0001 L TNN
+F 3 "" H 7600 6900 60  0001 C CNN
+	1    7600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR-WIMA_C2.5_2 C3
+U 1 1 57409AFE
+P 7600 11500
+F 0 "C3" H 7660 11514 70  0000 L BNN
+F 1 "0.1uF" H 7659 11315 70  0000 L BNN
+F 2 "synth-diy:C_Rect_L4.5_W2.5_P3" H 7590 11290 65  0001 L TNN
+F 3 "" H 7600 11500 60  0001 C CNN
+	1    7600 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR-WIMA_C2.5_2 C4
+U 1 1 57409BC6
+P 7600 4800
+F 0 "C4" H 7660 4814 70  0000 L BNN
+F 1 "0.1uF" H 7659 4615 70  0000 L BNN
+F 2 "synth-diy:C_Rect_L4.5_W2.5_P3" H 7590 4590 65  0001 L TNN
+F 3 "" H 7600 4800 60  0001 C CNN
+	1    7600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR-WIMA_C2.5_2 C5
+U 1 1 57409C8E
+P 7600 9400
+F 0 "C5" H 7660 9414 70  0000 L BNN
+F 1 "0.1uF" H 7659 9215 70  0000 L BNN
+F 2 "synth-diy:C_Rect_L4.5_W2.5_P3" H 7590 9190 65  0001 L TNN
+F 3 "" H 7600 9400 60  0001 C CNN
+	1    7600 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR-WIMA_C2.5_2 C6
+U 1 1 57409D56
+P 7600 2700
+F 0 "C6" H 7660 2714 70  0000 L BNN
+F 1 "0.1uF" H 7659 2515 70  0000 L BNN
+F 2 "synth-diy:C_Rect_L4.5_W2.5_P3" H 7590 2490 65  0001 L TNN
+F 3 "" H 7600 2700 60  0001 C CNN
+	1    7600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_CPOL-EUE2.5-7 C7
+U 1 1 57409E1E
+P 4500 10100
+F 0 "C7" H 4545 10118 70  0000 L BNN
+F 1 "220uF" H 4544 9919 70  0000 L BNN
+F 2 "Capacitors_ThroughHole:C_Radial_D7.5_L11.2_P2.5" H 4490 9890 65  0001 L TNN
+F 3 "" H 4500 10100 60  0001 C CNN
+	1    4500 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPACITOR-WIMA_C2.5_2 C11
+U 1 1 5740A13E
+P 6200 10100
+F 0 "C11" H 6260 10115 70  0000 L BNN
+F 1 "0.1uF" H 6260 9915 70  0000 L BNN
+F 2 "synth-diy:C_Rect_L4.5_W2.5_P3" H 6190 9890 65  0001 L TNN
+F 3 "" H 6200 10100 60  0001 C CNN
+	1    6200 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L RESISTOR_CPOL-EUE2.5-6 C12
+U 1 1 5740A206
+P 6450 10000
+F 0 "C12" H 6495 10018 70  0000 L BNN
+F 1 "47uF" H 6494 9819 70  0000 L BNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2.5" H 6440 9790 65  0001 L TNN
+F 3 "" H 6450 10000 60  0001 C CNN
+	1    6450 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_1N4148DO35-7 D1
+U 1 1 5740A2CE
+P 6900 13100
+F 0 "D1" H 7000 13118 70  0000 L BNN
+F 1 "1N4148DO35-7" H 7000 13009 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 6890 12890 65  0001 L TNN
+F 3 "" H 6900 13100 60  0001 C CNN
+	1    6900 13100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_1N4148DO35-7 D2
+U 1 1 5740A396
+P 6900 6400
+F 0 "D2" H 7000 6418 70  0000 L BNN
+F 1 "1N4148DO35-7" H 7000 6309 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 6890 6190 65  0001 L TNN
+F 3 "" H 6900 6400 60  0001 C CNN
+	1    6900 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_1N4148DO35-7 D3
+U 1 1 5740A45E
+P 6900 11000
+F 0 "D3" H 7000 11018 70  0000 L BNN
+F 1 "1N4148DO35-7" H 7000 10909 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 6890 10790 65  0001 L TNN
+F 3 "" H 6900 11000 60  0001 C CNN
+	1    6900 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_1N4148DO35-7 D4
+U 1 1 5740A526
+P 6900 4300
+F 0 "D4" H 7000 4318 70  0000 L BNN
+F 1 "1N4148DO35-7" H 7000 4209 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 6890 4090 65  0001 L TNN
+F 3 "" H 6900 4300 60  0001 C CNN
+	1    6900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_1N4148DO35-7 D5
+U 1 1 5740A5EE
+P 6900 8800
+F 0 "D5" H 7000 8818 70  0000 L BNN
+F 1 "1N4148DO35-7" H 7000 8709 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 6890 8590 65  0001 L TNN
+F 3 "" H 6900 8800 60  0001 C CNN
+	1    6900 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_1N4148DO35-7 D6
+U 1 1 5740A6B6
+P 6900 2100
+F 0 "D6" H 7000 2118 70  0000 L BNN
+F 1 "1N4148DO35-7" H 7000 2009 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 6890 1890 65  0001 L TNN
+F 3 "" H 6900 2100 60  0001 C CNN
+	1    6900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE_1N4004 D9
+U 1 1 5740A90E
+P 4900 10100
+F 0 "D9" H 5000 10119 70  0000 L BNN
+F 1 "1N4004" H 5000 10009 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 4890 9890 65  0001 L TNN
+F 3 "" H 4900 10100 60  0001 C CNN
+	1    4900 10100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE_1N4004 D10
+U 1 1 5740A9D6
+P 5500 9200
+F 0 "D10" H 5600 9219 70  0000 L BNN
+F 1 "1N4004" H 5600 9109 70  0000 L BNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 5490 8990 65  0001 L TNN
+F 3 "" H 5500 9200 60  0001 C CNN
+	1    5500 9200
+	-1   0    0    1   
+$EndComp
+$Comp
+L SUPPLY1_GND #GND01
+U 1 1 5740AA3A
+P 7600 13900
+F 0 "#GND01" H 7500 13800 70  0001 L BNN
+F 1 "GND" H 7500 13800 70  0000 L BNN
+F 2 "" H 7600 13900 60  0001 C CNN
+F 3 "" H 7600 13900 60  0001 C CNN
+	1    7600 13900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SUPPLY1_GND #GND02
+U 1 1 5740AA9E
+P 7600 7200
+F 0 "#GND02" H 7500 7100 70  0001 L BNN
+F 1 "GND" H 7500 7100 70  0000 L BNN
+F 2 "" H 7600 7200 60  0001 C CNN
+F 3 "" H 7600 7200 60  0001 C CNN
+	1    7600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SUPPLY1_GND #GND03
+U 1 1 5740AB02
+P 7600 11800
+F 0 "#GND03" H 7500 11700 70  0001 L BNN
+F 1 "GND" H 7500 11700 70  0000 L BNN
+F 2 "" H 7600 11800 60  0001 C CNN
+F 3 "" H 7600 11800 60  0001 C CNN
+	1    7600 11800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SUPPLY1_GND #GND04
+U 1 1 5740AB66
+P 7600 5100
+F 0 "#GND04" H 7500 5000 70  0001 L BNN
+F 1 "GND" H 7500 5000 70  0000 L BNN
+F 2 "" H 7600 5100 60  0001 C CNN
+F 3 "" H 7600 5100 60  0001 C CNN
+	1    7600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SUPPLY1_GND #GND05
+U 1 1 5740ABCA
+P 7600 9700
+F 0 "#GND05" H 7500 9600 70  0001 L BNN
+F 1 "GND" H 7500 9600 70  0000 L BNN
+F 2 "" H 7600 9700 60  0001 C CNN
+F 3 "" H 7600 9700 60  0001 C CNN
+	1    7600 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SUPPLY1_GND #GND06
+U 1 1 5740AC2E
+P 7600 3000
+F 0 "#GND06" H 7500 2900 70  0001 L BNN
+F 1 "GND" H 7500 2900 70  0000 L BNN
+F 2 "" H 7600 3000 60  0001 C CNN
+F 3 "" H 7600 3000 60  0001 C CNN
+	1    7600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SUPPLY1_GND #GND07
+U 1 1 5740AC92
+P 5700 10700
+F 0 "#GND07" H 5600 10600 70  0001 L BNN
+F 1 "GND" H 5600 10600 70  0000 L BNN
+F 2 "" H 5700 10700 60  0001 C CNN
+F 3 "" H 5700 10700 60  0001 C CNN
+	1    5700 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SUPPLY1_GND #GND08
+U 1 1 5740ACF6
+P 10250 8300
+F 0 "#GND08" H 10150 8200 70  0001 L BNN
+F 1 "GND" H 10150 8200 70  0000 L BNN
+F 2 "" H 10250 8300 60  0001 C CNN
+F 3 "" H 10250 8300 60  0001 C CNN
+	1    10250 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40XX_40106N IC1
+U 1 1 5740AE22
+P 8000 13100
+F 0 "IC1" H 8100 13225 70  0000 L BNN
+F 1 "40106N" H 8099 12900 70  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7990 12890 65  0001 L TNN
+F 3 "" H 8000 13100 60  0001 C CNN
+	1    8000 13100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40XX_40106N IC1
+U 2 1 5740AE86
+P 8000 6400
+F 0 "IC1" H 8100 6525 70  0000 L BNN
+F 1 "40106N" H 8099 6200 70  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7990 6190 65  0001 L TNN
+F 3 "" H 8000 6400 60  0001 C CNN
+	2    8000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40XX_40106N IC1
+U 3 1 5740AEEA
+P 8000 11000
+F 0 "IC1" H 8100 11125 70  0000 L BNN
+F 1 "40106N" H 8099 10800 70  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7990 10790 65  0001 L TNN
+F 3 "" H 8000 11000 60  0001 C CNN
+	3    8000 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40XX_40106N IC1
+U 4 1 5740AF4E
+P 8000 4300
+F 0 "IC1" H 8100 4425 70  0000 L BNN
+F 1 "40106N" H 8099 4100 70  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7990 4090 65  0001 L TNN
+F 3 "" H 8000 4300 60  0001 C CNN
+	4    8000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40XX_40106N IC1
+U 5 1 5740AFB2
+P 8000 8800
+F 0 "IC1" H 8100 8925 70  0000 L BNN
+F 1 "40106N" H 8099 8600 70  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7990 8590 65  0001 L TNN
+F 3 "" H 8000 8800 60  0001 C CNN
+	5    8000 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40XX_40106N IC1
+U 6 1 5740B016
+P 8000 2100
+F 0 "IC1" H 8100 2225 70  0000 L BNN
+F 1 "40106N" H 8099 1900 70  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 7990 1890 65  0001 L TNN
+F 3 "" H 8000 2100 60  0001 C CNN
+	6    8000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 40XX_40106N IC1
+U 7 1 5740B07A
+P 6050 10200
+F 0 "IC1" H 6000 10176 70  0000 L BNN
+F 1 "40106N" H 6040 10090 65  0001 L TNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 6040 9990 65  0001 L TNN
+F 3 "" H 6050 10200 60  0001 C CNN
+	7    6050 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L V-REG_78LXX IC3
+U 1 1 5740B26E
+P 5500 9600
+F 0 "IC3" H 5599 9300 70  0000 L BNN
+F 1 "78L05" H 5599 9200 70  0000 L BNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 5490 9390 65  0001 L TNN
+F 3 "" H 5500 9600 60  0001 C CNN
+	1    5500 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CON-JACK_DCJ0202 J1
+U 1 1 5740B336
+P 3800 10200
+F 0 "J1" H 3700 10350 70  0000 L BNN
+F 1 "DCJ0202" H 3700 9950 70  0000 L BNN
+F 2 "synth-diy:THONKICONN_mod" H 3700 9950 70  0001 L BNN
+F 3 "" H 3800 10200 60  0001 C CNN
+	1    3800 10200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED_LED5MM LED1
+U 1 1 5740B3FE
+P 5200 10200
+F 0 "LED1" V 5340 10020 70  0000 L BNN
+F 1 "~" H 5190 10090 65  0001 L TNN
+F 2 "LEDs:LED-3MM" H 5190 9990 65  0001 L TNN
+F 3 "" H 5200 10200 60  0001 C CNN
+	1    5200 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R1
+U 1 1 5740B4C6
+P 7300 13100
+F 0 "R1" H 7150 13159 70  0000 L BNN
+F 1 "1k" H 7150 12970 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 7290 12890 65  0001 L TNN
+F 3 "" H 7300 13100 60  0001 C CNN
+	1    7300 13100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R2
+U 1 1 5740B58E
+P 7300 6400
+F 0 "R2" H 7150 6459 70  0000 L BNN
+F 1 "1k" H 7150 6270 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 7290 6190 65  0001 L TNN
+F 3 "" H 7300 6400 60  0001 C CNN
+	1    7300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R3
+U 1 1 5740B656
+P 7300 11000
+F 0 "R3" H 7150 11059 70  0000 L BNN
+F 1 "1k" H 7150 10870 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 7290 10790 65  0001 L TNN
+F 3 "" H 7300 11000 60  0001 C CNN
+	1    7300 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R4
+U 1 1 5740B71E
+P 7300 4300
+F 0 "R4" H 7150 4359 70  0000 L BNN
+F 1 "1k" H 7150 4170 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 7290 4090 65  0001 L TNN
+F 3 "" H 7300 4300 60  0001 C CNN
+	1    7300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R5
+U 1 1 5740B7E6
+P 7300 8800
+F 0 "R5" H 7150 8859 70  0000 L BNN
+F 1 "1k" H 7150 8670 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 7290 8590 65  0001 L TNN
+F 3 "" H 7300 8800 60  0001 C CNN
+	1    7300 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R6
+U 1 1 5740B8AE
+P 7300 2100
+F 0 "R6" H 7150 2159 70  0000 L BNN
+F 1 "1k" H 7150 1970 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 7290 1890 65  0001 L TNN
+F 3 "" H 7300 2100 60  0001 C CNN
+	1    7300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R7
+U 1 1 5740B976
+P 9000 2100
+F 0 "R7" H 8850 2159 70  0000 L BNN
+F 1 "100k" H 8850 1970 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 8990 1890 65  0001 L TNN
+F 3 "" H 9000 2100 60  0001 C CNN
+	1    9000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R8
+U 1 1 5740BA3E
+P 9000 4300
+F 0 "R8" H 8850 4359 70  0000 L BNN
+F 1 "100k" H 8850 4170 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 8990 4090 65  0001 L TNN
+F 3 "" H 9000 4300 60  0001 C CNN
+	1    9000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R9
+U 1 1 5740BB06
+P 9000 6400
+F 0 "R9" H 8850 6459 70  0000 L BNN
+F 1 "100k" H 8850 6270 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 8990 6190 65  0001 L TNN
+F 3 "" H 9000 6400 60  0001 C CNN
+	1    9000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R10
+U 1 1 5740BBCE
+P 9000 8800
+F 0 "R10" H 8850 8859 70  0000 L BNN
+F 1 "100k" H 8850 8670 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 8990 8590 65  0001 L TNN
+F 3 "" H 9000 8800 60  0001 C CNN
+	1    9000 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R11
+U 1 1 5740BC96
+P 9000 11000
+F 0 "R11" H 8850 11059 70  0000 L BNN
+F 1 "100k" H 8850 10870 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 8990 10790 65  0001 L TNN
+F 3 "" H 9000 11000 60  0001 C CNN
+	1    9000 11000
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R12
+U 1 1 5740BD5E
+P 9000 13100
+F 0 "R12" H 8850 13159 70  0000 L BNN
+F 1 "100k" H 8850 12970 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 8990 12890 65  0001 L TNN
+F 3 "" H 9000 13100 60  0001 C CNN
+	1    9000 13100
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR_R-EU_0204_7 R22
+U 1 1 5740C52E
+P 5200 9900
+F 0 "R22" H 5050 9959 70  0000 L BNN
+F 1 "470 Ohm" H 5050 9770 70  0000 L BNN
+F 2 "synth-diy:Resistor_Horizontal_RM7mm_Wide" H 5190 9690 65  0001 L TNN
+F 3 "" H 5200 9900 60  0001 C CNN
+	1    5200 9900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SWITCH_320-916 S1
+U 1 1 5740C5F6
+P 4200 9500
+F 0 "S1" V 3950 9425 70  0000 L BNN
+F 1 "~" H 4190 9390 65  0001 L TNN
+F 2 "diy_switches:SWITCH_SPDT" H 4190 9290 65  0001 L TNN
+F 3 "" H 4200 9500 60  0001 C CNN
+	1    4200 9500
+	0    1    1    0   
+$EndComp
+$Comp
+L SPARKFUN-AESTHETICS_5V #SUPPLY09
+U 1 1 5740C65A
+P 6600 9600
+F 0 "#SUPPLY09" H 6561 9740 70  0001 L BNN
+F 1 "5V" H 6561 9740 70  0000 L BNN
+F 2 "" H 6600 9600 60  0001 C CNN
+F 3 "" H 6600 9600 60  0001 C CNN
+	1    6600 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT_EVUF2L VR1
+U 1 1 5740C97A
+P 7900 12400
+F 0 "VR1" V 7666 12250 70  0000 L BNN
+F 1 "1M" V 7751 12250 70  0000 L BNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 7890 12190 65  0001 L TNN
+F 3 "" H 7900 12400 60  0001 C CNN
+	1    7900 12400
+	0    1    1    0   
+$EndComp
+$Comp
+L POT_EVUF2L VR2
+U 1 1 5740CA42
+P 8000 5700
+F 0 "VR2" V 7766 5550 70  0000 L BNN
+F 1 "1M" V 7851 5550 70  0000 L BNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 7990 5490 65  0001 L TNN
+F 3 "" H 8000 5700 60  0001 C CNN
+	1    8000 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L POT_EVUF2L VR3
+U 1 1 5740CB0A
+P 8000 10300
+F 0 "VR3" V 7766 10150 70  0000 L BNN
+F 1 "1M" V 7851 10150 70  0000 L BNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 7990 10090 65  0001 L TNN
+F 3 "" H 8000 10300 60  0001 C CNN
+	1    8000 10300
+	0    1    1    0   
+$EndComp
+$Comp
+L POT_EVUF2L VR4
+U 1 1 5740CBD2
+P 8000 3600
+F 0 "VR4" V 7766 3450 70  0000 L BNN
+F 1 "1M" V 7851 3450 70  0000 L BNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 7990 3390 65  0001 L TNN
+F 3 "" H 8000 3600 60  0001 C CNN
+	1    8000 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L POT_EVUF2L VR5
+U 1 1 5740CC9A
+P 8000 8100
+F 0 "VR5" V 7766 7950 70  0000 L BNN
+F 1 "1M" V 7851 7950 70  0000 L BNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 7990 7890 65  0001 L TNN
+F 3 "" H 8000 8100 60  0001 C CNN
+	1    8000 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L POT_EVUF2L VR6
+U 1 1 5740CD62
+P 8000 1400
+F 0 "VR6" V 7766 1250 70  0000 L BNN
+F 1 "1M" V 7851 1250 70  0000 L BNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 7990 1190 65  0001 L TNN
+F 3 "" H 8000 1400 60  0001 C CNN
+	1    8000 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L POT_EVUF2L VR10
+U 1 1 5740CFBA
+P 9650 7500
+F 0 "VR10" V 9415 7350 70  0000 L BNN
+F 1 "10k log" V 9500 7350 70  0000 L BNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 9640 7290 65  0001 L TNN
+F 3 "" H 9650 7500 60  0001 C CNN
+	1    9650 7500
+	0    -1   -1   0   
+$EndComp
+Text Label 5800 9600 0    10   ~ 0
+5V
+Text Label 5900 9900 1    10   ~ 0
+5V
+Text Label 6200 9900 1    10   ~ 0
+5V
+Text Label 5600 9200 0    10   ~ 0
+5V
+Text Label 6450 9900 1    10   ~ 0
+5V
+Text Label 6600 9600 3    10   ~ 0
+5V
+Text Label 7600 13800 3    10   ~ 0
+GND
+Text Label 7600 13800 1    10   ~ 0
+GND
+Text Label 7600 7100 3    10   ~ 0
+GND
+Text Label 7600 7100 1    10   ~ 0
+GND
+Text Label 7600 11700 3    10   ~ 0
+GND
+Text Label 7600 11700 1    10   ~ 0
+GND
+Text Label 7600 5000 3    10   ~ 0
+GND
+Text Label 7600 5000 1    10   ~ 0
+GND
+Text Label 7600 9600 3    10   ~ 0
+GND
+Text Label 7600 9600 1    10   ~ 0
+GND
+Text Label 7600 2900 3    10   ~ 0
+GND
+Text Label 7600 2900 1    10   ~ 0
+GND
+Text Label 10250 7600 2    10   ~ 0
+GND
+Text Label 10250 7700 2    10   ~ 0
+GND
+Text Label 10250 8200 1    10   ~ 0
+GND
+Text Label 9650 7300 1    10   ~ 0
+GND
+Text Label 3900 9900 1    10   ~ 0
+GND
+Text Label 4900 10200 3    10   ~ 0
+GND
+Text Label 5500 9900 3    10   ~ 0
+GND
+Text Label 6200 10200 3    10   ~ 0
+GND
+Text Label 4500 10300 3    10   ~ 0
+GND
+Text Label 6450 10200 3    10   ~ 0
+GND
+Text Label 5200 10400 3    10   ~ 0
+GND
+Text Label 5700 10600 1    10   ~ 0
+GND
+Text Label 7700 12400 2    10   ~ 0
+N$1
+Text Label 7600 13500 1    10   ~ 0
+N$1
+Text Label 7600 13100 2    10   ~ 0
+N$1
+Text Label 7500 13100 0    10   ~ 0
+N$1
+Text Label 8100 12400 0    10   ~ 0
+N$2
+Text Label 7900 12600 3    10   ~ 0
+N$2
+Text Label 8400 13100 0    10   ~ 0
+N$2
+Text Label 8800 13100 2    10   ~ 0
+N$2
+Text Label 7800 5700 2    10   ~ 0
+N$3
+Text Label 7600 6400 2    10   ~ 0
+N$3
+Text Label 7600 6800 1    10   ~ 0
+N$3
+Text Label 7500 6400 0    10   ~ 0
+N$3
+Text Label 8000 5900 3    10   ~ 0
+N$4
+Text Label 8200 5700 0    10   ~ 0
+N$4
+Text Label 8400 6400 0    10   ~ 0
+N$4
+Text Label 8800 6400 2    10   ~ 0
+N$4
+Text Label 7000 2100 0    10   ~ 0
+N$5
+Text Label 7100 2100 2    10   ~ 0
+N$5
+Text Label 7000 8800 0    10   ~ 0
+N$6
+Text Label 7100 8800 2    10   ~ 0
+N$6
+Text Label 7000 4300 0    10   ~ 0
+N$7
+Text Label 7100 4300 2    10   ~ 0
+N$7
+Text Label 7600 11400 1    10   ~ 0
+N$8
+Text Label 7600 11000 2    10   ~ 0
+N$8
+Text Label 7800 10300 2    10   ~ 0
+N$8
+Text Label 7500 11000 0    10   ~ 0
+N$8
+Text Label 8000 10500 3    10   ~ 0
+N$9
+Text Label 8200 10300 0    10   ~ 0
+N$9
+Text Label 8400 11000 0    10   ~ 0
+N$9
+Text Label 8800 11000 2    10   ~ 0
+N$9
+Text Label 7000 6400 0    10   ~ 0
+N$10
+Text Label 7100 6400 2    10   ~ 0
+N$10
+Text Label 7500 4300 0    10   ~ 0
+N$11
+Text Label 7600 4300 2    10   ~ 0
+N$11
+Text Label 7800 3600 2    10   ~ 0
+N$11
+Text Label 8000 3800 3    10   ~ 0
+N$11
+Text Label 8200 3600 0    10   ~ 0
+N$11
+Text Label 8400 4300 0    10   ~ 0
+N$11
+Text Label 7600 4700 1    10   ~ 0
+N$11
+Text Label 8800 4300 2    10   ~ 0
+N$11
+Text Label 7500 2100 0    10   ~ 0
+N$12
+Text Label 7600 2100 2    10   ~ 0
+N$12
+Text Label 7600 2600 1    10   ~ 0
+N$12
+Text Label 7800 1400 2    10   ~ 0
+N$12
+Text Label 7600 9300 1    10   ~ 0
+N$13
+Text Label 7600 8800 2    10   ~ 0
+N$13
+Text Label 7800 8100 2    10   ~ 0
+N$13
+Text Label 7500 8800 0    10   ~ 0
+N$13
+Text Label 8000 8300 3    10   ~ 0
+N$14
+Text Label 8200 8100 0    10   ~ 0
+N$14
+Text Label 8400 8800 0    10   ~ 0
+N$14
+Text Label 8800 8800 2    10   ~ 0
+N$14
+Text Label 8000 1600 3    10   ~ 0
+N$15
+Text Label 8200 1400 0    10   ~ 0
+N$15
+Text Label 8400 2100 0    10   ~ 0
+N$15
+Text Label 8800 2100 2    10   ~ 0
+N$15
+Text Label 9200 6400 0    10   ~ 0
+N$16
+Text Label 9200 4300 0    10   ~ 0
+N$16
+Text Label 9200 2100 0    10   ~ 0
+N$16
+Text Label 9200 8800 0    10   ~ 0
+N$16
+Text Label 9200 11000 0    10   ~ 0
+N$16
+Text Label 9200 13100 0    10   ~ 0
+N$16
+Text Label 7000 11000 0    10   ~ 0
+N$17
+Text Label 7100 11000 2    10   ~ 0
+N$17
+Text Label 7000 13100 0    10   ~ 0
+N$18
+Text Label 7100 13100 2    10   ~ 0
+N$18
+Text Label 10250 7500 2    10   ~ 0
+N$19
+Text Label 9450 7500 2    10   ~ 0
+N$19
+Text Label 9850 7500 0    10   ~ 0
+N$19
+Text Label 4900 10000 1    10   ~ 0
+N$29
+Text Label 5200 9600 2    10   ~ 0
+N$29
+Text Label 5400 9200 2    10   ~ 0
+N$29
+Text Label 4500 10000 1    10   ~ 0
+N$29
+Text Label 4400 9700 0    10   ~ 0
+N$29
+Text Label 5200 9700 1    10   ~ 0
+N$29
+Text Label 6800 2100 2    10   ~ 0
+N$33
+Text Label 4000 9600 2    10   ~ 0
+N$34
+Text Label 3700 9900 1    10   ~ 0
+N$34
+Text Label 5200 10100 1    10   ~ 0
+N$35
+Text Label 5200 10100 3    10   ~ 0
+N$35
+$Comp
+L CON-JACK_DCJ0202 J2
+U 1 1 5740B9A1
+P 10550 7600
+F 0 "J2" H 10450 7750 45  0000 L BNN
+F 1 "CON-JACK_DCJ0202" H 10450 7350 45  0000 L BNN
+F 2 "synth-diy:THONKICONN_mod" H 10580 7750 20  0001 C CNN
+F 3 "" H 10550 7600 60  0000 C CNN
+	1    10550 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6200 9600 6200 9900
+Wire Wire Line
+	6450 9600 6450 9900
+Wire Wire Line
+	5900 9200 5600 9200
+Connection ~ 5900 9600
+Connection ~ 6200 9900
+Connection ~ 5900 9900
+Connection ~ 6600 9600
+Wire Wire Line
+	10250 7600 10250 8200
+Wire Wire Line
+	9650 7300 11050 7300
+Wire Wire Line
+	11050 7300 11050 8100
+Wire Wire Line
+	11050 8100 10250 8100
+Connection ~ 10250 8100
+Connection ~ 10250 7700
+Connection ~ 10250 7600
+Connection ~ 9650 7300
+Wire Wire Line
+	3900 9900 4200 9900
+Wire Wire Line
+	4500 10600 4500 10300
+Wire Wire Line
+	4900 10600 4900 10200
+Wire Wire Line
+	5500 10600 5500 9900
+Wire Wire Line
+	5900 9900 5900 10600
+Wire Wire Line
+	6200 10600 6200 10200
+Wire Wire Line
+	6450 10600 6450 10200
+Wire Wire Line
+	5200 10600 5200 10400
+Wire Wire Line
+	4200 9900 4200 10600
+Connection ~ 4500 10600
+Connection ~ 4900 10600
+Connection ~ 5500 10600
+Connection ~ 6200 10200
+Connection ~ 5900 10600
+Connection ~ 5200 10600
+Connection ~ 5700 10600
+Wire Wire Line
+	7600 12400 7600 13500
+Wire Wire Line
+	7600 12400 7700 12400
+Wire Wire Line
+	7500 13100 7600 13100
+Connection ~ 7600 13100
+Connection ~ 7700 12400
+Connection ~ 7600 13500
+Wire Wire Line
+	8100 12400 8400 12400
+Wire Wire Line
+	7900 12600 8100 12600
+Wire Wire Line
+	8100 12600 8100 12400
+Wire Wire Line
+	8400 12400 8400 13100
+Wire Wire Line
+	8400 13100 8800 13100
+Connection ~ 8800 13100
+Connection ~ 8100 12400
+Connection ~ 7900 12600
+Connection ~ 8400 13100
+Wire Wire Line
+	7600 5700 7800 5700
+Wire Wire Line
+	7600 5700 7600 6800
+Wire Wire Line
+	7500 6400 7600 6400
+Connection ~ 7800 5700
+Connection ~ 7600 6400
+Connection ~ 7600 6800
+Wire Wire Line
+	8000 5900 8200 5900
+Wire Wire Line
+	8200 5900 8200 5700
+Wire Wire Line
+	8200 5700 8400 5700
+Wire Wire Line
+	8400 5700 8400 6400
+Wire Wire Line
+	8400 6400 8800 6400
+Connection ~ 8800 6400
+Connection ~ 8400 6400
+Connection ~ 8200 5700
+Connection ~ 8000 5900
+Wire Wire Line
+	7000 2100 7100 2100
+Connection ~ 7000 2100
+Connection ~ 7100 2100
+Wire Wire Line
+	7000 8800 7100 8800
+Wire Wire Line
+	7000 4300 7100 4300
+Wire Wire Line
+	7600 10300 7600 11400
+Wire Wire Line
+	7600 10300 7800 10300
+Wire Wire Line
+	7500 11000 7600 11000
+Connection ~ 7800 10300
+Connection ~ 7600 11000
+Connection ~ 7600 11400
+Wire Wire Line
+	8000 10500 8200 10500
+Wire Wire Line
+	8200 10500 8200 10300
+Wire Wire Line
+	8200 10300 8400 10300
+Wire Wire Line
+	8400 10300 8400 11000
+Wire Wire Line
+	8400 11000 8800 11000
+Connection ~ 8400 11000
+Connection ~ 8200 10300
+Connection ~ 8000 10500
+Wire Wire Line
+	7000 6400 7100 6400
+Wire Wire Line
+	7500 4300 7600 4300
+Wire Wire Line
+	7600 3600 7600 4700
+Wire Wire Line
+	7600 3600 8000 3600
+Wire Wire Line
+	8000 3600 8000 3800
+Wire Wire Line
+	8000 3800 8200 3800
+Wire Wire Line
+	8200 3800 8200 3600
+Wire Wire Line
+	8200 3600 8400 3600
+Wire Wire Line
+	8400 3600 8400 4300
+Wire Wire Line
+	8400 4300 8800 4300
+Connection ~ 7600 4300
+Connection ~ 8000 3800
+Connection ~ 8200 3600
+Connection ~ 7800 3600
+Connection ~ 8800 4300
+Connection ~ 8400 4300
+Connection ~ 7600 4700
+Wire Wire Line
+	7500 2100 7600 2100
+Wire Wire Line
+	7600 1400 7600 2600
+Wire Wire Line
+	7600 1400 7800 1400
+Connection ~ 7500 2100
+Connection ~ 7600 2100
+Connection ~ 7600 2600
+Connection ~ 7800 1400
+Wire Wire Line
+	7600 8100 7600 9300
+Wire Wire Line
+	7600 8100 7800 8100
+Wire Wire Line
+	7500 8800 7600 8800
+Connection ~ 7800 8100
+Connection ~ 7600 8800
+Connection ~ 7500 8800
+Wire Wire Line
+	8000 8300 8200 8300
+Wire Wire Line
+	8200 8300 8200 8100
+Wire Wire Line
+	8200 8100 8400 8100
+Wire Wire Line
+	8400 8100 8400 8800
+Wire Wire Line
+	8400 8800 8800 8800
+Connection ~ 8200 8100
+Connection ~ 8000 8300
+Connection ~ 8400 8800
+Wire Wire Line
+	8000 1600 8200 1600
+Wire Wire Line
+	8200 1600 8200 1400
+Wire Wire Line
+	8200 1400 8400 1400
+Wire Wire Line
+	8400 1400 8400 2100
+Wire Wire Line
+	8400 2100 8800 2100
+Connection ~ 8000 1600
+Connection ~ 8200 1400
+Connection ~ 8400 2100
+Wire Wire Line
+	9200 2100 9200 13100
+Connection ~ 9200 6400
+Connection ~ 9200 11000
+Connection ~ 9200 9800
+Connection ~ 9200 4300
+Connection ~ 9200 7500
+Connection ~ 9200 8800
+Connection ~ 9200 13100
+Wire Wire Line
+	7000 11000 7100 11000
+Wire Wire Line
+	7000 13100 7100 13100
+Connection ~ 7000 13100
+Connection ~ 7100 13100
+Wire Wire Line
+	9200 7500 10250 7500
+Connection ~ 9850 7500
+Connection ~ 10250 7500
+Wire Wire Line
+	4500 10000 4500 9600
+Wire Wire Line
+	4400 9600 5200 9600
+Wire Wire Line
+	4900 9200 4900 10000
+Wire Wire Line
+	5400 9200 4900 9200
+Wire Wire Line
+	4400 9700 4400 9600
+Wire Wire Line
+	5200 9600 5200 9700
+Connection ~ 4900 9600
+Connection ~ 5200 9600
+Connection ~ 4500 9600
+Connection ~ 6800 2100
+Wire Wire Line
+	3700 9600 4000 9600
+Wire Wire Line
+	3700 9900 3700 9600
+Wire Wire Line
+	5800 9600 6600 9600
+Connection ~ 6200 9600
+Connection ~ 6450 9600
+Wire Wire Line
+	4200 10600 6450 10600
+Connection ~ 6200 10600
+Wire Wire Line
+	5900 9200 5900 9600
+$Comp
+L POT RV1
+U 1 1 5740D1C1
+P 5900 9750
+F 0 "RV1" H 5900 9670 50  0000 C CNN
+F 1 "POT" H 5900 9750 50  0000 C CNN
+F 2 "diy_pots:R_POT_ALPHA_16MM_V" H 5900 9750 50  0001 C CNN
+F 3 "" H 5900 9750 50  0000 C CNN
+	1    5900 9750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 9750 6050 9900
+Wire Wire Line
+	6050 10500 6050 10600
+Connection ~ 6050 10600
+$EndSCHEMATC

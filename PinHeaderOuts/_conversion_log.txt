@@ -1,0 +1,6 @@
+
+#********** START OF eagle-lbr2kicad-1.0.ulp 2.0 21-05-2016 :19:19:51 LOG **********#
+Missing Prefix Part =WQP_PJ301M-12_JACK				THONKICONN_EAGLE_V5-(2)_JACK-3.5					40106grundschaltung		M
+    Conversion completed with no Messages
+#********** END OF eagle-lbr2kicad-1.0.ulp 2.0 21-05-2016 :19:19:51 LOG **********#
+
